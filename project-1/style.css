@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
     box-sizing: border-box;
@@ -6,9 +6,37 @@
 
 body {
     margin: 0;
-    font-family: 'Poppins';
-    background-image: url('./snow.jpg');
+    font-family: "Poppins";
+    background-image: url("./snow.jpg");
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-size: cover;
     background-position: center center;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container {
+    display: flex;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
 }
